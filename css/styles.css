@@ -15,12 +15,14 @@ div::after {
   color: red;
   content: "How well do you know?";
   background: url(../img/stranger-things.jpg);
-  opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
   z-index: -1; }
+
+div::after {
+  opacity: .5; }
 
 /*# sourceMappingURL=styles.css.map */
