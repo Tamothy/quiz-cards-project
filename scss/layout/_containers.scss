@@ -5,15 +5,30 @@ div {
   position: relative;
 }
 
-div::after {
-  @extend %opacity;
-  color: red;
-  content: "How well do you know?";
-  background: url(../img/stranger-things.jpg);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+div {
+
+  &.family-guy::after {
+    @extend %opacity;
+    @extend %card-layout;
+    background: url(../img/family-guy.jpg);
+  }
+
+  &.stranger-things::after {
+    @extend %opacity;
+    @extend %card-layout;
+    background: url(../img/stranger-things.jpg);
+  }
+
+  &.westworld::after {
+    @extend %opacity;
+    @extend %card-layout;
+    background: url(../img/westworld.jpg);
+  }
+
+  &.better-call-saul::after {
+    @extend %opacity;
+    @extend %card-layout;
+    background: url(../img/better-call-saul.jpg);
+  }
+
 }

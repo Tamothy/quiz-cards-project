@@ -10,16 +10,12 @@ img {
   border-color: white;
   border-width: 2px; }
 
-div {
-  width: 300px;
-  height: 400px;
-  display: block;
-  position: relative; }
+div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
+  opacity: .5; }
 
-div::after {
+div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
   color: red;
   content: "How well do you know?";
-  background: url(../img/stranger-things.jpg);
   top: 0;
   left: 0;
   bottom: 0;
@@ -27,7 +23,19 @@ div::after {
   position: absolute;
   z-index: -1; }
 
-div::after {
-  opacity: .5; }
+div {
+  width: 300px;
+  height: 400px;
+  display: block;
+  position: relative; }
+
+div.family-guy::after {
+  background: url(../img/family-guy.jpg); }
+div.stranger-things::after {
+  background: url(../img/stranger-things.jpg); }
+div.westworld::after {
+  background: url(../img/westworld.jpg); }
+div.better-call-saul::after {
+  background: url(../img/better-call-saul.jpg); }
 
 /*# sourceMappingURL=styles.css.map */
