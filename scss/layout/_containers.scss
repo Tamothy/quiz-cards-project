@@ -6,10 +6,10 @@ div {
 }
 
 div::after {
+  @extend %opacity;
   color: red;
   content: "How well do you know?";
   background: url(../img/stranger-things.jpg);
-  @extend %opacity;
   top: 0;
   left: 0;
   bottom: 0;
