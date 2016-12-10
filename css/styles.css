@@ -40,4 +40,20 @@ div.westworld::after {
 div.better-call-saul::after {
   background: url(../img/better-call-saul.jpg); }
 
+span:hover {
+  filter: brightness(0.7);
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+span {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #991613;
+  border-width: 1px;
+  padding: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: #991613; }
+
 /*# sourceMappingURL=styles.css.map */

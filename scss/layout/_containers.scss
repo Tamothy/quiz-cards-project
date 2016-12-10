@@ -11,25 +11,25 @@ div {
   &.family-guy::after {
     @extend %opacity;
     @extend %card-layout;
-    background: url(../img/family-guy.jpg);
+    background: url(#{$path-img}/family-guy.jpg);
   }
 
   &.stranger-things::after {
     @extend %opacity;
     @extend %card-layout;
-    background: url(../img/stranger-things.jpg);
+    background: url(#{$path-img}/stranger-things.jpg);
   }
 
   &.westworld::after {
     @extend %opacity;
     @extend %card-layout;
-    background: url(../img/westworld.jpg);
+    background: url(#{$path-img}/westworld.jpg);
   }
 
   &.better-call-saul::after {
     @extend %opacity;
     @extend %card-layout;
-    background: url(../img/better-call-saul.jpg);
+    background: url(#{$path-img}/better-call-saul.jpg);
   }
 
 }
