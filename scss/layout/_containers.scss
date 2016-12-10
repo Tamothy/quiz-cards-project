@@ -33,3 +33,12 @@ div {
   }
 
 }
+
+@media #{$brk-responsive} {
+  body {
+    @include background($sail);
+  }
+  .container {
+    float: left;
+  }
+}

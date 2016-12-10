@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 img {
   border-style: solid;
   border-color: #FFFFFF;
@@ -11,6 +23,12 @@ body {
 img {
   max-width: 280px;
   margin: 8px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
   opacity: .5; }
@@ -39,6 +57,19 @@ div.westworld::after {
   background: url(../img/westworld.jpg); }
 div.better-call-saul::after {
   background: url(../img/better-call-saul.jpg); }
+
+@media (min-width: 768px) {
+  body {
+    background: #BDDAFA;
+    background: #BDDAFA; }
+
+  .container {
+    float: left; } }
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 span:hover {
   filter: brightness(0.9);
