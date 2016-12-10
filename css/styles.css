@@ -1,5 +1,7 @@
 body {
-  font-style: futura; }
+  font-family: futura;
+  font-style: italic;
+  color: rgba(153, 22, 19, 0.8); }
 
 img {
   max-width: 280px;
@@ -7,15 +9,14 @@ img {
 
 img {
   border-style: solid;
-  border-color: white;
+  border-color: #FFFFFF;
   border-width: 2px; }
 
 div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
   opacity: .5; }
 
 div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
-  color: red;
-  content: "How well do you know?";
+  content: "";
   top: 0;
   left: 0;
   bottom: 0;
@@ -27,7 +28,8 @@ div {
   width: 300px;
   height: 400px;
   display: block;
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
 div.family-guy::after {
   background: url(../img/family-guy.jpg); }
