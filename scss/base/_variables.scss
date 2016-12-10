@@ -1,10 +1,16 @@
 // Descriptive color variables
-$white: #FFFFFF;
-$tamarillo: #991613;
+$white : #FFFFFF;
+$tamarillo : #991613;
+$burnt-sienna : #EC5D62;
 
 // Functional color variables
-$color-border: $white;
-$color-question-text: rgba($tamarillo, .8);
+$color-border : $white;
+$color-question-text : rgba($tamarillo, .8);
 
-// Image path
-$path-img: '../img';
+// Asset paths
+$path-img : '../img';
+
+// Media query breakpoints
+
+$brk-tablet : '(min-width: 768px)';
+$brk-desktop : '(min-width: 1024px)';

@@ -1,3 +1,8 @@
+img {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 2px; }
+
 body {
   font-family: futura;
   font-style: italic;
@@ -6,11 +11,6 @@ body {
 img {
   max-width: 280px;
   margin: 8px; }
-
-img {
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-width: 2px; }
 
 div.family-guy::after, div.stranger-things::after, div.westworld::after, div.better-call-saul::after {
   opacity: .5; }
@@ -41,9 +41,10 @@ div.better-call-saul::after {
   background: url(../img/better-call-saul.jpg); }
 
 span:hover {
-  filter: brightness(0.7);
+  filter: brightness(0.9);
   color: #FFFFFF;
-  border-color: #FFFFFF; }
+  background-color: #EC5D62;
+  border-color: #EC5D62; }
 
 span {
   border-style: solid;

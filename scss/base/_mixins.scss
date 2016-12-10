@@ -1,0 +1,10 @@
+@mixin button-properties($border-style, $border-radius, $border-color, $border-width, $padding, $padding-right, $padding-left, $cursor: null) {
+  border-style: $border-style;
+  border-radius: $border-radius;
+  border-color: $border-color;
+  border-width: $border-width;
+  padding: $padding;
+  padding-right: $padding-right;
+  padding-left: $padding-left;
+  cursor: $cursor;
+}
