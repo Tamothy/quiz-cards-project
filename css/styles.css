@@ -15,6 +15,11 @@ img {
   border-color: #FFFFFF;
   border-width: 2px; }
 
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font-family: futura;
   font-style: italic;
